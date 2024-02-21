@@ -36,8 +36,10 @@ console.log("Total cost: $"+total.toFixed(2));
 //8. Do the same thing as 7th question, but use a template string and interpolation. 
 //console.log(`The sum of ${a} and ${b} is ${a + b}`);
 
-var message = 'Total cost: $ ${total.toFixed(2)}';
+var message = `Total cost: $${total.toFixed(2)}`;
+console.log(`Total cost: $${(coffee+bagal).toFixed(2)}`);
 console.log(message);
+
 
 //Display the text from 8th question in a popup.
 alert("Total cost: $"+total.toFixed(2));
